@@ -1,0 +1,146 @@
+# Lenguaje unificado de modelado (UML)
+
+Es una notación gráfica y un metamodelo utilizada para el análisis y diseño de sistemas orientados a objetos
+Es importante destacar que UML es un lenguaje para modelar, no un método de desarrollo por sí mismo.
+
+# 1 Diagramas de casos de uso 
+
+Representa el qué es lo que el sistema debe de hacer, enfocándose en la interación entre los usuarios y el sitema para captar requerimientos sfuncionales
+
+  ##  Elementos clave
+
+      -Actor
+
+      Representa el rol que un usuario (persona o sistema externo) juega con respecto al sistema
+
+      -Caso de uso
+
+      Operaciones o tarea específica que logra un objeto discreto para el usuario
+
+      -Boundary (límite)
+
+      Agrupa a los elementos que pertenecen al sistema dentro un área definida
+
+  ## Relaciones
+
+      Asociación: Comunicación básica entre el actor y el caso de uso
+      Dependencia: - Inclusion: Indica que un caso de uso se ejecuta necesariamente dentro de otro
+                   - Extennsión: Dependencia condicionada; un caso de uso base puede ser extendido por otro bajo ciertas condiciones
+      Generalización: Indica herencia entre actores o entre casos de uso
+
+# 2 Diagramas de clases
+
+Sirve para visualizr las relaciones entre clases que involucran al sistemas
+
+  ## Componentes de la clase
+
+      Se representan como un rectángulo con tres divisiones horizontales NOMBRE / ATRIBUTOS (CARACTERÍSTICAS) / MÉTODOS (OPERACIONES)
+
+  ## Visibilidad
+
+      Se define tanto para los atributos como paramétodos mediante símbolos: 
+      -Público(+)
+      -Privado(-)
+      -Protegido(#)
+
+  ## Relación entre clases
+
+      -Herencia (Generalización): Una subclase adquiere atributos y métodos de una superclase
+      -Composición: Relación "Todo-parte", si el objeto contenedor se destruye, las partes también
+      -Agregación: Relación "Todo-parte", dinámica donde todo el tiempo de vida de los objetos es independiente
+      -Asociación:Conexión entre clases que colaboran sin una dependencia de ciclo de vida fuerte
+      -Dependencia: Unaclase utiliza o instancia a otra de manera transitoria
+
+  ## Multiplicidad
+
+      Indica cuantas instancias de una clase se relacionan con otra
+
+# 3 Diagramas de interacicón y comportamiento
+
+Representan la comunicación y los cambios de estado entre objetos
+
+  ## Diagrama de secuencia
+
+      Muestra la interacción de objetos a través del tiempo, detallando el intercambio de mensajes y su orden cronológico
+
+  ## Diagramas de colaboración
+
+      Enfocado en la organización de los objetos y sus enlaces, no tanto en el tiempo . Utiliza objetos (activos o pasivos) enlaces y mensajes
+
+  ## Diagramas de estado
+
+      Describe los ciclos de vida de un objeto mediante una máquina de estados, respondiendo a eventos o estímulos. 
+      Sus elementos son: Estado, el Evento (que causa el cambio) y la Transición
+
+  ## Diagrama de actividad
+
+    Similar a un diagrama de flujo muestra el flujo de opraciones internas de un procedimiento o algortimo. Incluye estados de acción, transiciones, condiciones y forks para operaciones simultáneas
+
+# 4 Diagramas de implementacióm
+
+Modelan la arquitectura física y la distribución del software
+
+  ## Diagrama de componentes
+
+    Muestra la organización y dependencias entre archivos, librerías, tablas y ejecutables. Utiliza estereotipos (como Library, Executable, Table) para clasificar los elementos
+
+  ## Diagrama de despliegue (plataformas) 
+    
+    Indica la situación física de los componentes lógicos en el hardware. EL elemento principal es el nodo que es el recurso de hardware donde se ejcutan los componentes
+
+# Diccionario
+
+-Codigo fuente: Es el conjunto de ficheros escritos en un lenguaje de alto nivel que documentan las dependencias necesarias para la creación de un programa o librería
+-Ejecutable: Programa final expresado en lenguaje de máquina, el cual es el resultado de procesar el código a través de un compilador y un enlazador. Su función principal es facilitar la distribuición de software a los clientes, documentando sus necesidades operativas y dependencias
+-Nodo: Es un elemento fundamental, representado graficamente como un cubo; simboliza el recurso de hardware (como un servidor o cliente) donde se ejecuan efectivamente los componentes
+-Forks: Es una herramienta que permite representar operaciones que se realizan simultáneamente o en paralelo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
