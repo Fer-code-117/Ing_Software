@@ -1,0 +1,107 @@
+# Algoritmo
+
+Secuencia no ambigua, finita y ordenada de instrucciones para la resolución de un determinado problema.
+
+# Programa
+
+Es una pieza de código con un propósito específico. Pueden ser: "Procedador de texto, Videojuego" 
+Conjunto de instrucciones que le dice a la computadoa que hacer para completar una tarea. 
+
+# Software
+
+NO solo incluye el programa principal, sino también todos los componentes que lo hacen funcional, como los: "Datos, Archivo de configuración, Bibliotecas Y Documentación para el usuario"
+
+# Software Development Life Cycle (SDLC)
+
+Proceso estructurado en fases, utilizado para crear software de calidad, cumplir con las expectativas del cliente y reducir los riesgos del proyecto
+
+ºAnálisis
+ºDiseño
+ºDesarrollo
+ºPruebas
+ºImplementación
+ºMantenimiento
+
+# ¿Qué es programación?
+
+Elaboración de un programa de tal forma que este sea:
+
+  -Correcto: Hace lo de debe de hacer
+  -Eficiente: Debe consumir menor cantidad de recursos posibles
+  -Claro: Legitibilidad en todo el programa
+  -Modular: Reducción de la complejidad mediante subprogramas o módulos
+
+# Errores en la programación
+
+  Errores en tiempo de compilación
+
+    Errores fatales
+    Errores de sintaxis
+    advertencias o cursos
+
+  Errores en tiempo de ejecución
+
+  Error de lógica
+
+# Niveles de lenguajes de programación
+
+Lenguaje de máquina: Lenguaje entendido directamente por la computadora
+Lenguajes ensambladores: Representación simbólica del lenguaje de máquina
+Lenguaje de alto nivel: Lenguajes de programación tradicionales: "JAVA, C, PYTHON, RUBY, etc"
+Lenguajes declarativos: Lenguajes de órdenes: "SQL, PROLOG"
+
+# Traductores de lenguaje
+
+  Intérpretes: Traduce y ejecuta una instrucción a la vez
+  Compiladores: Traduce un programa fuente escrito en lenguaje de alto nivel
+
+    Fases de un lenguaje compilado
+
+      Programa fuente -> Compilador -> Programa objeto -> Linker -> Programa ejecutable en lenguaje máquina
+
+        Fases en el compilador
+
+          Analiza texto -> Analizador sintactico -> Analizador semántico -> generador de código intermedio -> opmitizador de código -> generador de código objeto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
