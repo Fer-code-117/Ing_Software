@@ -1,0 +1,63 @@
+# Consideraciones
+
+# Estimar costos
+
+  ## Entradas
+    Linea base de alcance
+    Cronograma del proyecto
+    Plan de recuersos humanos
+    Registro de riesgo
+  ## Herramientas y técnicas
+    Juicio de expertos
+    Estimación análoga
+    Estimación paramétrica
+    Estimación ascendente
+    Estimación por tres valores
+  ## Salidas
+    Estimación de costos para lasactividades 
+    Base de estimaciones
+
+# Juicio de expertos
+  Opiniones de especialistas para la toma de decisiones y resolución de problemas complejos
+# Estimación análoga
+  Basada en datos históricos de proyectos similares
+# Estimación paramétrica
+  Se emplea cuando se dispone de datos históricos robustos para aplicar modelos estadísticos y fórmulas matemáticas, vinculando variables como "horas por punto de función" o "costo por línea de código"
+# Estimación ascendente
+  **Tener todas mis variables en un solo sistema de referencia (por ejemplo por semana)
+  La técnica de mayor precisión, basada en la Estructura de Desglose del Trabajo (EDT/WBS)￼. El proceso implica:
+    1.- Descomponer el proyecto en paquetes de trabajo mínimos 
+    2.- Estimar el costo detallado de cada tarea individual (mano de obra, materiales, software).
+    3.- Agregar (sumar) estos costos para consolidar el presupuesto total del proyecto.
+# Estimación por 3 valores
+  Calcula un valor esperado (E) basándose en escenarios Optimista (O), Pesimista (P) y Más Probable (M). 
+  Se usan distribuciones 
+    Triangular E = (O+M+P)/3
+    Beta E = (O + 4M + P) / 6) 
+    Distribuición normal E = O +((P-O)/2) para mayor precisión ante la incertidumbre.
+# Análisis de reserva
+   Proceso fundamental en la gestión presupuestaria que consiste en asignar una cantidad de dinero adicional al presupuesto base del proyecto.
+  Ejecuciones de análisis de 
+
+  Análisis de valor monetario (VME)
+
+# Estimación Montecarlo
+  Técnica que genera miles de escenarios aleatorios para modelar la distribución de probabilidades de los costos totales, permitiendo conocer la probabilidad de éxito de un presupuesto determinado
+# Costo de calidad  (COQ)
+  Se define como la suma de costos para prevenir, detectar y corregir fallas. Se divide en:
+    Costos de conformidad: Incluyen: 
+      Prevención (capacitación, diseño de procesos) 
+      Evaluación (inspecciones, pruebas).
+    Costos de No Conformidad: Incluyen: 
+      Fallas internas (reprocesos antes de la entrega) 
+      Fallas externas (garantías, quejas tras la entrega).
+
+
+
+
+
+
+
+
+
+
