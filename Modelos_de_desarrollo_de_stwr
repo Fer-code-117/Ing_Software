@@ -1,0 +1,65 @@
+# Modelos de desarrollo de software
+
+  Los modelos de desarrollo de software establecen el marco de trabajo y la secuencia de estaaps para ña creacion de sistmas informáticos
+
+  -Lineal o Secuencial: Se caractetiza por una sucesión escalonada de etapas (Requisitos,diseño,codificación, pruebas e integración) donde es obligatorio finalizar una fase para iniciar la siguiente. Es un modelo rígido útil para sistemas pequeños o versiones de sistemas ya conocidos
+  -Cascada: Denifido por Winston Royce en 1970, introduce flujos de retorno al modelo secuecnial para permitir volver a fases anteriores según pa información generada. A pesar de su enfoque preventivo puede generar barreras si no se tiene un conocimiento profundo de los requisitos desde el inicio
+  -Espiral: Definifo por Boehm en 1988, es un modelo evolutivo que se utiliza el análisis de riesgo como guía. Se divide en cuatro cuadrantes.Planificacion,Análisis de riesgo, Ingeniería, y evaluación, permitiendo ciclos de iteración sucesivos
+  -Prototipado: Consiste en construir modelos de prueba (ligeros u operativos) para simular el funcionamiento del sistema y obtener retroalimentación del cliente. Entre sus riesgos es la falsa persepción de avance del cliente y del desbordamiento de recursos
+
+## Metodologías ágiles
+
+  Representan un enfoque estructurado e iterativo que reconoce la volatibidad de desarrollo y permite a equipos auto-organizados reaccionar ante cambios sin perder el control. Se basan en entregas tempranas y mejora continua
+
+## Kanban
+
+  Es un marco de trabajo ágil centrado en la visualización del flujo de trabajo, la limitación del trabajo en curso (WIP) y la maximización de la eficiencia
+  Se enfoca en reducir el tiempo total desde el inicio hasta el final de una tarea
+  Es altamente flexible y adaptarse a procesos y flujos activos sin requerir cambios drásticos iniciales
+  Fomenta la mejora continua (Kaizen) y el liderazgo en todos los niveles
+
+  Principios básicos: 
+    Empezar con lo que se hace ahora
+    Comprometerse a cambios incrementales
+    Respetar procesos y roles actuales
+    Animar el liderazgo en todos los niveles
+
+  Artefactos y prácticas
+    Tablero kanban: Representación visual con las columnas (etapas) y tarjetas (tareas)
+    Columnas personalizadas: Represenan estados como "pendiente", "en curso", "finalizado"
+
+  Ventajas
+
+  Proporicona datos de un vistazo ()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
